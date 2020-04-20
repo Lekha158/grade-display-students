@@ -1,0 +1,44 @@
+.rootStyle {
+    background-color: chocolate;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .rootStyle{
+        width: 100%;
+        background-color: darkgoldenrod;
+        height: fixed;
+        display: flex;
+        padding: 10px;
+        margin-top: 19%;
+
+        .marksClass{
+            display: none;
+        }
+        .titleClass{
+            display: none;
+        }
+        .teacherClass{
+            display: none;
+        }
+    }
+}
+.table-responsive{
+ display: grid;
+}    
+
+.MuiExpansionPanelSummary-content {
+    margin: unset !important;
+}
+
+.MuiExpansionPanelSummary-root {
+    padding: 0 !important;
+}
+.MuiPaper-elevation1{
+    box-shadow: unset !important;
+}

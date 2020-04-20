@@ -1,0 +1,55 @@
+.Toolbar {
+    height: 56px;
+    /* width: 100%; */
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: 703B09;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px ;
+    box-sizing:  border-box;
+    z-index: 90;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    .headerStyle{
+        background-color: seagreen;
+        width:50%;
+    }
+}
+
+.searchbox{
+    margin: 5px;
+    padding: 10px;
+    font-size: medium;
+    width:250px;
+    border: 7px solid powderblue;
+
+}
+
+.search{
+    display: contents;
+    color: white;
+    // font-weight: 300;
+}
+
+.headerStyle{
+    background-color: rebeccapurple;
+    height: 59px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.searchButton{
+    cursor: pointer;
+}

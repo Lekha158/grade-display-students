@@ -1,0 +1,100 @@
+.rootStyle {
+    background-color: chocolate;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+.student{
+    font-size: 20px;
+    width: 250px;
+    color: green;
+}
+
+.grade{
+    font-size: 20px;
+    width: 140px;
+    margin-left: 5%;
+}
+
+.teacher{
+    font-size: 20px;
+    width: 200px;
+
+}
+
+//responsive
+@media only screen and (max-width: 768px) {
+    .MuiExpansionPanelSummary-root{
+        display: inline-flex !important;
+    }
+    .MuiPaper-elevation1{
+        box-shadow: unset !important;
+    }
+    .MuiExpansionPanelSummary-content {
+        margin: unset !important;
+    }
+
+    .MuiExpansionPanelDetails-root {
+        padding: 5px !important;
+        margin-left: 0;
+    }
+
+    table.table td {
+        padding-top: unset; 
+        padding-bottom: unset;
+    }
+    .table td{
+        border-top: 0;
+    }
+    .rootStyle{
+        width: 100%;
+        background-color: darkgoldenrod;
+        height: fixed;
+        margin-top: 19%;
+        position: absolute;
+
+        .student{
+            width: 130px;
+            color:'blue';
+            
+        }
+        .teacher{
+            display: none;
+        }
+        .grade{
+            width: 100px;
+        }
+        .typo-content{
+            display: none;
+            margin-left: 0;
+        }
+        .typo-subject{
+            font-size: 2px;
+            padding: 3px;
+            padding-left: 7px;
+            margin: 0;
+            
+        }
+    }
+}
+
+.table-responsive {
+    width: 94%;
+    font-family: monospace;
+    margin-left: 4%;
+}
+   
+.MuiTypography-body1 {
+    font-family: monospace !important;
+}
+.MuiExpansionPanelSummary-content {
+    margin: unset !important;
+}
+
+
+.MuiPaper-elevation1{
+    box-shadow: unset !important;
+}
